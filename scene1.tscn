@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://bgjx0h3yos7qa"]
+[gd_scene load_steps=3 format=3 uid="uid://bgjx0h3yos7qa"]
+
+[ext_resource type="Script" path="res://Sprite2D.gd" id="1_uv1jl"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_mgsgj"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(266.25, 156.75)
+scale = Vector2(533.5, 314.5)
+texture = SubResource("CanvasTexture_mgsgj")
+script = ExtResource("1_uv1jl")
